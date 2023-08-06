@@ -1,0 +1,61 @@
+/* Reset some default styles */
+body, ul {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Style the header navigation */
+  header {
+    background-color: #0a0a0a;
+    color: #fff;
+    padding: 10px;
+  }
+  #home{
+    background-color: aqua;
+    background-image: url(girl..jpg);
+    padding: 50px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    display: flex;
+  }
+  
+  nav li {
+    margin-right: 40px;
+    padding: 12px 14px;
+
+  }
+  
+  nav a {
+    color: hsl(0, 11%, 96%);
+    text-decoration: none;
+    font-weight: bold;
+    background-color: #0a0a0a;
+    padding: 12px 14px;
+
+
+  }
+  
+  nav a:hover {
+    color: #03685c; /* Change to your desired hover color */
+  }
+  
+  /* Style the sections */
+  main {
+    padding: 20px;
+  }
+  
+  section {
+    margin-bottom: 30px;
+  }
+  
+  /* Hide all sections by default */
+  section {
+    display: none;
+  }
+  
+  /* Show the selected section based on the URL hash */
+  section:target {
+    display: block;
+  }
